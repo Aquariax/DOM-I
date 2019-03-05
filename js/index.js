@@ -41,9 +41,14 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let nav = document.getElementsByClassName("navItem");
+let nav = document.querySelectorAll("a");
+let ctaContent = document.querySelector('.cta')
+let mainContent = document.querySelector('.main-content')
+let contact = document.querySelector('.contact')
+let footer = document.querySelector('footer')
 
-for (let i=0; i< nav.length; i++){
-  console.log(nav[i])
-}
 console.log(nav)
+console.log(ctaContent)
+console.log(mainContent)
+console.log(contact)
+console.log(footer)
