@@ -54,9 +54,8 @@ for (let i = 0; i < navi.length; i++){
 navi.forEach( function(attribute){
   attribute.style.color = 'green';
 });
-const nav2 = document.createElement('a')
-nav2.textContent = ['Page', 'Page2']
-navi.prepend(nav2)
+
+
 //cta added here
 const ctaHeader = document.querySelector("h1");
 ctaHeader.innerHTML = siteContent["cta"]["h1"].split(' ').join(`<br>`);
